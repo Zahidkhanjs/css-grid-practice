@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 90%;
+        margin: 50px auto;
+        border: 1px solid black;
+        color: white;
+        display: grid;
+        grid-template-rows: 150px 150px ;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* grid-row-gap: 20px;
+        grid-column-gap: 10px; */
+        grid-gap: 20px 10px;
+}
+.div1{background-color: red;}
+.div2{background-color: orange;}
+.div3{background-color: green;}
+.div4{background-color: yellow;}
+.div5{background-color: aqua;}
+.div6{background-color: red;}
